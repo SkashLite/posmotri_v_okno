@@ -41,12 +41,11 @@ ol {
 
 .content {
   display: flex;
-  gap: 32px;
+  gap: 30px;
   flex-direction: row;
   align-items: end;
   margin: auto;
   min-width: 1140px;
-  height: 534px;
 }
 
 .content__list {
@@ -65,12 +64,13 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 26px;
+  align-self: flex-start;
 }
 
 .content__video-card {
   display: flex;
   padding: 2px;
-  gap: 5px;
+  justify-content: space-between;
 }
 
 .content__video-card-description-container {
@@ -118,6 +118,7 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  padding-top: 82px;
 }
 
 .result__video-container {
